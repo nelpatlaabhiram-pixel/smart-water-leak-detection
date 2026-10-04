@@ -7,9 +7,53 @@
 
 <body>
 
-    <h1>Smart Water Leak Detection & Monitoring System</h1>
+    <header>
+        <h1>💧 Smart Water Leak Detection</h1>
+        <p>Water Monitoring Dashboard</p>
+    </header>
 
-    <p>Smart water monitoring dashboard.</p>
+    <main>
+
+        <h2>Dashboard</h2>
+
+        <div class="dashboard">
+
+            <div class="card">
+                <h3>💧 Water Usage</h3>
+                <p id="waterUsage">0 L</p>
+            </div>
+
+            <div class="card">
+                <h3>💦 Flow Rate</h3>
+                <p id="flowRate">0 L/min</p>
+            </div>
+
+            <div class="card">
+                <h3>🚨 Leak Status</h3>
+                <p id="leakStatus">Checking...</p>
+            </div>
+
+            <div class="card">
+                <h3>🔧 Valve Status</h3>
+                <p id="valveStatus">Checking...</p>
+            </div>
+
+        </div>
+
+        <section class="monitoring">
+            <h2>Water Monitoring</h2>
+
+            <div class="status-box">
+                <h3>System Status</h3>
+                <p id="systemStatus">System is running</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Smart Water Leak Detection & Monitoring System</p>
+    </footer>
 
     <script src="script.js"></script>
 
